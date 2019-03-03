@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Lobster|Lobster+Two|Pacifico');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#mainNavbar{
+  font-size: 1rem;
+  font-weight:bold;
+
+}
+#mainNavbar .nav-link{
+  color: white;
+  text-transform: uppercase;
+
+}
+
+#mainNavbar .nav-link:hover{
+  color:#273c75;
+  text-decoration: underline;
+}
+#mainNavbar .navbar-brand{
+  color:white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding-left:40px;
+  text-transform: uppercase;
+
+}
+#mainNavbar .navbar-brand:hover{
+  color:#273c75;
+}
+.navbar{
+  background:#ef5777;
+}
+
+.navbar.scrolled{
+  background:#ef5777;
+  transition:background 500ms;
+  opacity: .6;
+
+}
+
+
+/* showcase */
+#home{
+  background: url(../img/cafe1.jpeg) no-repeat;
+  background-size:100%;
+  height: 100vh;
+  background-position:center;
+  background-size: cover;
+
+}
+
+/* About */
+.blur{
+  background: #ef5777;
+  color: white;
+  text-align: center;
+  padding:.5rem;
+}
+.blur h3{
+  font-family: 'Lobster', cursive;
+}
+.blur p{
+  font-family: 'Lobster Two', cursive;
+  font-size: 20px;
+}
+
+ .center{
+  width:50%;
+  height:50%;
+  display: block;
+  padding-top:1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.content p{
+  line-height: 1.5em;
+  text-indent:3rem;
+  /* font-family: 'Lobster Two', cursive; */
+  font-family: "ff-tisa-web-pro",Georgia,Times,"Times New Roman",serif;
+  font-weight: 400;
+
+  position: relative;
+  top:2rem;
+  font-size:1.22222em;
+  padding-bottom:1rem;
+
+  height: 100%;
+  display: block;
+  text-align: justify;
+  color: #ef5777;
+}
+
+/* projects */
+.work{
+padding: 2rem;
+}
+
+.work h6{
+  font-family: 'Lobster', cursive;
+  color: #ef5777;
+}
+
+.work .btn{
+ color:#ef5777!important;
+}
+/*Experians  */
+
+.before p{
+  line-height: 1.522em;
+  font-family: "ff-tisa-web-pro",Georgia,Times,"Times New Roman",serif;
+  color: #ef5777;
+  padding: 2rem;
+  font-size:1.22222em;
+}
+.skill {
+  text-align: center;
+}
+.skill  li{
+  display: inline-block;
+  color: #ef5777;
+  font-family: 'Lobster Two', cursive;
+  padding: 15px 15px;
+  border-top:2px solid #ef5777;
+  border-bottom: 2px solid #ef5777;
+  text-transform: uppercase;
+}
+
+/* footer */
+#contact{
+  background: #ef5777;
+  padding: 1rem;
+  text-align: center;
+}
+.box a{
+  color: white;
+  padding: 10px 15px;
+  font-size:20px;
+  font-family: 'Lobster Two', cursive;
+
+}

@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: crimson;
+}
+
+ul{
+float:right;
+}
+
+ ul li{
+float: left;
+list-style: none;
+}
+
+ ul li a{
+  padding: 7px 15px;
+  text-decoration-style:none;
+
+  
+}
+
+.header{
+  background: url(../img/cafe1.jpeg) no-repeat;
+  height: 100vh;
+  background-size:cover;
+  background-position: center center;
+}
+
+.content{
+display: block;
+padding-top:15%;
+padding-left:11%;
+}
+
+/* ABOUT */
+.sec1{
+  height:400px;
+  width:80%;
+  margin:30px auto;
+  background: black;
+  display: flex;
+}
+.content{
+  width: calc(50% - 50px);
+  height: 100%;
+  background: black;
+  box-sizing: border-box;
+  color: white;
+  line-height: 1.6;
+padding: 40px 30px;  
+}
+
+.box{
+  width: calc(50% + 50px);
+  height: 100%;
+  background:#f53b57;
+  box-sizing: border-box;
+  border-left: 100px solid #000;
+  border-bottom: 400px solid transparent;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.box h3{
+position: relative;
+text-transform: capitalize;
+top:30px;
+}
+
+.box h5{
+  position: relative;
+  top:40px;
+  border:2px solid black;
+  padding:2px;
+  margin:4px auto;
+  width:120px;
+  text-transform: uppercase;
+
+}
+
+/* project */
+.main-text p{
+ margin-left:9%;
+ margin-right:9%;
+ text-align: justify;
+
+}
+.main-text h5{
+ font-family: 'Lobster', cursive;
+ font-family: 'Lobster', cursive;
+ text-align: justify;
+
+}
+
+#project{
+  padding: 2rem 0;
+}
+
+
+
+/* Exp */
+#exp{
+ margin: 3rem;
+ padding:2rem;
+}
