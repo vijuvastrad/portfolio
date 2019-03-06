@@ -7,56 +7,6 @@
   box-sizing: border-box;
 }
 
-
-#mainNavbar{
-  font-size: 1rem;
-  font-weight:bold;
-
-}
-#mainNavbar .nav-link{
-  color: white;
-  text-transform: uppercase;
-
-}
-
-#mainNavbar .nav-link:hover{
-  color:#273c75;
-  text-decoration: underline;
-}
-#mainNavbar .navbar-brand{
-  color:white;
-  font-weight: bolder;
-  font-size: 1.5rem;
-  padding-left:40px;
-  text-transform: uppercase;
-
-}
-#mainNavbar .navbar-brand:hover{
-  color:#273c75;
-}
-.navbar{
-  background:#ef5777;
-}
-
-.navbar.scrolled{
-  background:#ef5777;
-  transition:background 500ms;
-  opacity: .6;
-
-}
-
-
-/* showcase */
-#home{
-  background: url(../img/cafe1.jpeg) no-repeat;
-  background-size:100%;
-  height: 100vh;
-  background-position:center;
-  background-size: cover;
-
-}
-
-/* About */
 .blur{
   background: #ef5777;
   color: white;
@@ -71,55 +21,101 @@
   font-size: 20px;
 }
 
- .center{
-  width:50%;
-  height:50%;
-  display: block;
-  padding-top:1rem;
-  margin-left: auto;
-  margin-right: auto;
+#mainNavbar{
+  font-size: 1rem;
+  font-weight:bold;
+
+}
+#mainNavbar .nav-link{
+  color: white;
+  text-transform: uppercase;
+
+}
+
+#mainNavbar .nav-link:hover{
+  color: black;
+}
+#mainNavbar .navbar-brand{
+  color:white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding-left:40px;
+  text-transform: uppercase;
+
+}
+#mainNavbar .navbar-brand:hover{
+color: black;
+}
+.navbar{
+  background:#ef5777;
+}
+
+.navbar.scrolled{
+   background:#ef5777; 
+  transition:background 500ms;
+  opacity: .6;
+
 }
 
 
-.content p{
-  line-height: 1.5em;
-  text-indent:3rem;
-  /* font-family: 'Lobster Two', cursive; */
-  font-family: "ff-tisa-web-pro",Georgia,Times,"Times New Roman",serif;
-  font-weight: 400;
-
-  position: relative;
-  top:2rem;
+/* showcase */
+#home{
+  background: url(../img/cafe1.jpeg) no-repeat;
+  background-size:100%;
+  height: 100vh;
+  background-position:center;
+  background-size: cover;
+}
+ 
+/* About */
+.about-text{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.about-text p{
+  line-height: 1.6em;
+  text-align: center;
+  font-family: "ff-tisa-web-pro",Georgia,Times,"Times New Roman",serif; 
+  padding: 2.5rem 0 1rem 0 ;
   font-size:1.22222em;
-  padding-bottom:1rem;
-
-  height: 100%;
+  -webkit-font-smoothing: antialiased;
+ text-rendering: optimizeLegibility; 
+}
+.image-box{
+ padding:1rem 0 2.5rem 0;
+}
+.image{
+  width:25%;
+  border-radius: 50%;
+  margin: 0 auto;
   display: block;
-  text-align: justify;
-  color: #ef5777;
-}
-
+  border:2px solid #ef5777; 
+  box-shadow: 4px 4px 4px #be6c7e;
+} 
+ 
 /* projects */
-.work{
-padding: 2rem;
-}
-
 .work h6{
   font-family: 'Lobster', cursive;
   color: #ef5777;
 }
-
-.work .btn{
- color:#ef5777!important;
+.pro-text{
+  font-family: "ff-tisa-web-pro",Georgia,Times,"Times New Roman",serif; 
+  -webkit-font-smoothing: antialiased;
+ text-rendering: optimizeLegibility;
 }
+.project .btn{
+ color:black;
+} 
 /*Experians  */
 
 .before p{
   line-height: 1.522em;
-  font-family: "ff-tisa-web-pro",Georgia,Times,"Times New Roman",serif;
-  color: #ef5777;
+  font-family: "ff-tisa-web-pro",Georgia,Times,"Times New Roman",serif; 
   padding: 2rem;
   font-size:1.22222em;
+  -webkit-font-smoothing: antialiased;
+ text-rendering: optimizeLegibility; 
 }
 .skill {
   text-align: center;
@@ -146,4 +142,59 @@ padding: 2rem;
   font-size:20px;
   font-family: 'Lobster Two', cursive;
 
+}
+@media screen and (max-width:992px){
+#home{
+  height: 95vh;
+}
+.about-text{
+  width: 100%;
+}
+.about-text p{
+  line-height: 1.5em;
+  padding-top:1.5rem;
+  font-size:1.12222em;
+}
+.image-box{
+ padding-bottom:1.5rem;
+}
+.image{
+  width:35%;
+} 
+ 
+
+}
+@media screen and (max-width:767px){
+  #home{
+    height:85vh;
+  }
+  .blur{
+    padding:.3rem;
+  }
+  .blur p{
+    font-size:15px;
+  }
+
+  .about-text{
+    width:100%;
+  }
+  .about-text p{
+    line-height: 1.45em;
+    padding-top:1rem;
+    font-size:1.12222em;
+  }
+  .image-box{
+   padding-bottom:2rem;
+  }
+  .image{
+    width:40%;
+
+  } 
+   
+}
+
+@media screen and (max-width:500px){
+  #home{
+    height:60vh;
+  }
 }
